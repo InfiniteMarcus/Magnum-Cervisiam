@@ -1,5 +1,5 @@
     <div id="main" class="d-flex">
-        <div class="bgimg"><a href="index"><img src="assets/img/back.svg" alt=""></a></div>
+        <div class="bgimg"><a href="index"><img src="/assets/img/back.svg" alt=""></a></div>
         <div id="form-container" class="container-fluid">
             <form id="login" class="pb-md-5 mb-md-3" action="login.php" method="post">
                 <div class="form-group">

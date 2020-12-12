@@ -14,9 +14,9 @@ as chamadas dos controllers e views -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Estilos e fontes -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-	  <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+	  <link rel="stylesheet" href="/assets/css/login.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -24,11 +24,6 @@ as chamadas dos controllers e views -->
 
   </head>
   <body>
-	<!-- HEADER -->
-	<header>
-		
-	</header>
-	<!-- /HEADER -->
 
   <?php
     require '../app/autoload.php';
@@ -40,15 +35,12 @@ as chamadas dos controllers e views -->
 
   ?>
 
-	<!-- FOOTER -->
-	<footer>
-		
-	</footer>
-	<!-- /FOOTER -->
-
 	<!-- Javascript -->
-  <script src="assets/js/jquery.js"></script>
+  <script src="/assets/js/jquery.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
 </html>

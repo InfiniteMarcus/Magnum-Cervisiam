@@ -4,9 +4,6 @@
         <main style="width: 100vw; align-items: center;">
             <button>Cadastrar</button>
             <video autoplay muted loop id="myVideo">
-                <source src="assets/videos/video.mp4" type="video/mp4">
+                <source src="/assets/videos/video.mp4" type="video/mp4">
             </video>
         </main>
-        <script>
-        AOS.init();
-        </script>
