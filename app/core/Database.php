@@ -5,19 +5,13 @@ namespace app\core;
 use PDO;
 class Database extends PDO
 {
-  // configuração do banco de dados
-  private $DB_NAME = '';
-  private $DB_USER = '';
-  private $DB_PASSWORD = '';
-  private $DB_HOST = '';
-
   // armazena a conexão
   private $conn;
 
   public function __construct()
   {
     // Quando essa classe é instanciada, é atribuido a variável $conn a conexão com o db
-    $this->conn = new PDO("pgsql:dbname=$this->DB_NAME;host=$this->DB_HOST;user=$this->DB_USER;password=$this->DB_PASSWORD");
+    $this->conn = new PDO("sqlite:bd/.db");
   }
 
   /**

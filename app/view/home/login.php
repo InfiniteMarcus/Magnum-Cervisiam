@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/login.css">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body>
     <div id="main" class="d-flex">
-        <div class="bgimg"><a href="index.php"><img src="assets/img/back.svg" alt=""></a></div>
+        <div class="bgimg"><a href="index"><img src="assets/img/back.svg" alt=""></a></div>
         <div id="form-container" class="container-fluid">
             <form id="login" class="pb-md-5 mb-md-3" action="login.php" method="post">
                 <div class="form-group">
@@ -32,5 +20,3 @@
             </form>
         </div>
     </div>
-</body>
-</html>

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+main video {
+    width: 100vw;
+}
+
+main video {
+    object-fit: initial;
+    height: 99.5vh;
+}
+
+main button {
+    display: inline;
+    position: relative;
+    top: 55vh;
+    left: 43vw;
+    color: #F7F7F7;
+    font-family: "Merriweather";
+    font-size: 65px;
+    background: rgb(125,11,35);
+    background: linear-gradient(180deg, rgba(125,11,35,0.7) 0%, rgba(157,26,53,0.7) 50%, rgba(125,11,35,0.7) 100%);
+    border: 2px solid rgba(125,11,35,0.5);
+    border-radius: 25px 10px 10px 10px;
+    padding: 8px;
+}
+
+#titulo {
+    display: inline;
+    position: absolute;
+    top: 25vh;
+    left: 30vw;
+    color: #F7F7F7;
+    font-family: "Merriweather";
+    font-size: 80px;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+    .videoFundo video {
+        object-fit: initial;
+        height: 65vh;
+    }
+
+    #titulo {
+        top: 15vh;
+        left: 30vw;
+        font-size: 40px;
+    }
+    
+    main button {
+        top: 38vh;
+        left: 40vw;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .videoFundo video {
+        object-fit: initial;
+        height: 50vh;
+    }
+
+    #titulo {
+        left: 30vw;
+        font-size: 30px;
+    }
+    main button {
+        top: 35vh;
+        left: 40vw;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #titulo {
+        left: 5vw;
+        font-size: 18px;
+    }
+
+    #titulo {
+        left: 13vw;
+        font-size: 25px;
+    }
+    main button {
+        top: 35vh;
+        left: 35vw;
+        font-size: 25px;
+    }
+}
