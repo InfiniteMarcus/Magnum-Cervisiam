@@ -1,7 +1,6 @@
 <?php
 
 use app\core\Controller;
-use app\model\usuario;
 
 class Home extends Controller
 {
@@ -13,4 +12,6 @@ class Home extends Controller
   public function login(){
 
   }
+
+
 }

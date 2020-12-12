@@ -38,8 +38,7 @@ as chamadas dos controllers e views -->
 	</footer>
 	<!-- /FOOTER -->
 
-	<!-- jQuery Plugins -->
-
+	<!-- Javascript -->
 
   </body>
 </html>
