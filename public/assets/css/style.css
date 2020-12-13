@@ -24,13 +24,13 @@ header{
     text-align: center;
 }
 
-h1{
+#title h1{
     font-size: max(50px, 5vw);
     color: #fff;
     text-shadow: #000 4px 4px 4px;
 }
 
-h2{
+#title h2{
     font-size: 30px;
 
 }
@@ -47,16 +47,37 @@ h2{
     border: 1px solid #7d0b23;
 }
 
+.teste::before {
+    position: absolute;
+    content: "";
+    display: block;
+    opacity: .6;
+    height: 200vh;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
 #img1{
     max-width: 600px;
     max-height: 600px;
     width: 40%;
     margin: 0 20px;
+    border-left: 3px solid #7d0b23;
+    border-radius: 4px;
+}
 
+ #img2{
+    max-width: 600px;
+    max-height: 600px;
+    width: 40%;
+    margin: 0 20px;
+    border-right: 3px solid #7d0b23;
+    border-radius: 4px;
 }
 
 .about-container{
-    background-color: #fff;
+    background-color: rgb(247, 247, 247);
     width: 100vw;
     max-width: 1900px;
     margin: auto;
@@ -102,6 +123,15 @@ h2{
         z-index: -999;
 }
 
+.main-title{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+    font-weight: 700;
+    font-size: 52px;
+
+}
+
 @media (max-width: 430px) {
     #button{
        font-size: 10px;
@@ -119,10 +149,13 @@ h2{
 
 @media (max-width: 800px){
 
-    #img1{
+    #img1, #img2{
         width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 0;
     }
-
+    
     #title{
         margin-left: auto;
         margin-right: auto;
@@ -131,6 +164,13 @@ h2{
     .container-1{
         display: block;
         text-align: center;
+    }
+
+    #reverse{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
     }
 
     .container-title{

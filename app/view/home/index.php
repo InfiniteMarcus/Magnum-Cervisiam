@@ -1,3 +1,4 @@
+      <div class="teste"></div>
       <header>
             <video autoplay muted loop id="myVideo">
                 <source src="/assets/videos/video.mp4" type="video/mp4">
@@ -12,8 +13,9 @@
 
 
     <div class = "about-container">
-        <div class="container-1">
-            <img src="/assets/img/about1.jpeg" alt="Minha Figura"  class="img-fluid img-thumbnail" id="img1">
+        <h1 class="main-title">Lorem ipsum dolor sit.</h1>
+        <div id="reverse" class="container-1">
+            <img src="/assets/img/about1.jpeg" alt="Minha Figura"  class="img-fluid" id="img1">
             <div class="container-title">
                 <h2>Lorem, ipsum dolor.</h2>
                 <div class="container-border"></div>	
@@ -27,11 +29,11 @@
                 <div class="container-border"></div>	
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque dicta voluptatum modi perspiciatis vero in. Ad, minima rem nam sint exercitationem a repellat tenetur, fugiat iure id, dolores ab.</p>
             </div>
-            <img src="/assets/img/about2.jpeg" alt="Minha Figura"  class="img-fluid img-thumbnail" id="img1">
+            <img src="/assets/img/about2.jpeg" alt="Minha Figura"  class="img-fluid" id="img2">
         </div>
 
-        <div class="container-1 mb-0">
-            <img src="/assets/img/about3.jpeg" alt="Minha Figura"  class="img-fluid img-thumbnail" id="img1">
+        <div id="reverse" class="container-1 mb-0">
+            <img src="/assets/img/about3.jpeg" alt="Minha Figura"  class="img-fluid" id="img1">
             <div class="container-title">
                 <h2>Lorem, ipsum dolor.</h2>
                 <div class="container-border"></div>	
