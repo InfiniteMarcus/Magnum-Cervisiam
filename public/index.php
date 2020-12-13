@@ -18,7 +18,8 @@ as chamadas dos controllers e views -->
     <?php 
         $string = str_replace('?', '/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
         $REQUEST_URI = explode('/', $string);
-      if($REQUEST_URI[1] === "login"){
+
+      if(!empty($REQUEST_URI) &&  $REQUEST_URI[1] === "login"){
         echo '<link rel="stylesheet" href="/assets/css/login.css">';
       }else
         echo '<link rel="stylesheet" href="/assets/css/style.css">';
