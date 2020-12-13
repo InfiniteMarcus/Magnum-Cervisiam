@@ -33,6 +33,12 @@ as chamadas dos controllers e views -->
         } else if($REQUEST_URI[1] === "painelDados"){
           echo '<link rel="stylesheet" href="/assets/css/estiloDados.css">';
           $set = true;
+        } else if($REQUEST_URI[1] === "userIndex"){
+          echo '<link rel="stylesheet" href="/assets/css/userIndex.css">';
+          $set = true;
+        } else if($REQUEST_URI[1] === "premios"){
+          echo '<link rel="stylesheet" href="/assets/css/premios.css">';
+          $set = true;
         }
       }
       if(!$set)
@@ -44,6 +50,7 @@ as chamadas dos controllers e views -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <style>
       @font-face {
         font-family: "Nexa_Regular";
