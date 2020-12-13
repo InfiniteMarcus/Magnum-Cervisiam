@@ -11,7 +11,7 @@ class Database extends PDO
   public function __construct()
   {
     // Quando essa classe é instanciada, é atribuido a variável $conn a conexão com o db
-    $this->conn = new PDO("sqlite:bd/dbAmbev.db");
+    $this->conn = new PDO("sqlite:../app/dbAmbev.db");
   }
 
   /**

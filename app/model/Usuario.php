@@ -8,7 +8,7 @@ class Usuario
   public static function verificaLogin($email, $password)
   {
     $conn = new Database();
-    $result = $conn->executeQuery('SELECT email, senha FROM tb_users WHERE email = :EMAIL AND senha = :PASSWORD LIMIT 1', array(
+    $result = $conn->executeQuery('SELECT Email, Senha FROM tb_Users WHERE Email = :EMAIL AND Senha = :PASSWORD LIMIT 1', array(
       ':EMAIL' => $email,
       ':PASSWORD' => $password
     ));
