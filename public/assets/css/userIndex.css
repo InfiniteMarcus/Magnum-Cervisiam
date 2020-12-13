@@ -21,7 +21,7 @@ header {
 
 .btns {
     float: right;
-    margin-right: 5vw;
+    margin-right: 3vw;
 }
 
 .btns img {
@@ -47,3 +47,32 @@ header {
     }
 }
 
+.saldo {
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.painel {
+    margin-left: 30vw;
+    width: 65vw;
+    height: 60vh;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Nexa_Regular";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: "Nexa_Regular";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h3 {
+    font-family: "Nexa_Regular";
+    font-weight: 700;
+    font-size: 20px;
+}

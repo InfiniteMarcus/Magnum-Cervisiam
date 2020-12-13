@@ -9,5 +9,9 @@
             <img src="/assets/img/user.png">
         </div>
     </header>
+    <div class="saldo">
+        <h1>Saldo Atual</h1>
+        <h2><?php echo($_GET['saldo']) ?></h2>
+    </div>
 </body>
 </html>
