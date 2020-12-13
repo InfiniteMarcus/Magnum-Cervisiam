@@ -22,4 +22,5 @@ class My extends Controller
         die();
       }
     }
+
 }
