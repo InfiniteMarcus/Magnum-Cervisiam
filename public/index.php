@@ -30,6 +30,9 @@ as chamadas dos controllers e views -->
         }else if($REQUEST_URI[1] === "quiz"){
           echo '<link rel="stylesheet" href="/assets/css/quiz.css">';
           $set = true;
+        } else if($REQUEST_URI[1] === "painelDados"){
+          echo '<link rel="stylesheet" href="/assets/css/estiloDados.css">';
+          $set = true;
         }
       }
       if(!$set)
@@ -39,6 +42,24 @@ as chamadas dos controllers e views -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: "Nexa_Regular";
+        src: url("/assets/fonts/NexaDemo-Light.otf");
+      }
+
+      @font-face {
+        font-family: "Nexa_Bold";
+        src: url("/assets/fonts/NexaDemo-Bold.otf");
+      }
+    </style>
+    <link href='/assets/fonts/NexaDemo-Bold.otf' rel='stylesheet' type='text/css'>
+    <link href='/assets/fonts/NexaDemo-Light.otf' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   </head>
   <body>
@@ -54,8 +75,6 @@ as chamadas dos controllers e views -->
   ?>
 
 	<!-- Javascript -->
-  <script src="/assets/js/jquery.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>

@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    background: rgb(247,247,247);
+    background: linear-gradient(180deg, rgb(247,247,247) 0%, rgb(227,227,227) 25%, rgb(223,223,223) 50%, rgb(230,230,230) 75%, rgb(214,214,214) 100%);
+}
+
+nav {
+    background: rgb(31,217,202);
+    background: linear-gradient(180deg, rgb(31,217,202) 0%, rgb(30,213,208) 20%, rgb(31,200,207) 37%, rgb(30,193,200) 53%, rgb(29,186,191) 67%, rgb(23,161,166) 80%, rgb(19,124,128) 100%);
+    width: 13vw;
+    height: 100vh;
+    text-align: center;
+    display: inline-block;
+    position: static;
+}
+
+nav ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.btnsNavbar {
+    margin-top: 5vh;
+}
+
+.btnsNavbar li {
+    cursor: pointer;
+    margin-top: 3vh;
+    font-family: "Nexa_Regular";
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.btnsNavbar li:after {    
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    left: 50%;
+    position: relative;
+    height: 2px;
+    background: #F7F7F7;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.btnsNavbar li:hover:after { 
+    width: 60%;
+    left: 20%;
+}
+
+#nomeAdmin {
+    font-family: "Nexa_Regular";
+    font-weight: 600;
+    font-size: 20px;
+    color: #F7F7F7;
+}
+
+#tituloNavBar {
+    position: relative;
+    top: 5px;
+    font-family: "Nexa_Regular";
+    font-weight: 590;
+    font-size: 40px;
+    color: #F7F7F7;
+}
+
+
+.card1 {
+    display: inline-block;
+    position: absolute;
+    bottom: 15vh;
+    left: 20vw;
+    width: 33vw;
+    height: 70vh;
+    background-color: #F7F7F7;
+    border: 2px solid #F7F7F7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+}
+
+.card1 div {
+    display: inline;
+    float: right;
+    top: 3vh;
+    background-color: rgb(31,217,202);
+    padding: 5px;
+    border: 2px solid rgb(31,217,202);
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+.card2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 15vh;
+    left: 60vw;
+    width: 33vw;
+    height: 70vh;
+    background-color: #F7F7F7;
+    border: 2px solid #F7F7F7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+}
+
+.card2 div {
+    display: inline;
+    float: right;
+    top: 3vh;
+    background-color: rgb(31,217,202);
+    padding: 5px;
+    border: 2px solid rgb(31,217,202);
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+.cardGrafico {
+    display: inline-block;
+    position: absolute;
+    bottom: 80vh;
+    left: 40vw;
+    width: 33vw;
+    height: 10vh;
+    align-items: center;
+    background-color: #F7F7F7;
+    border: 2px solid #F7F7F7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -7px rgba(0,0,0,0.75);
+}
+
+.cardGrafico p {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#grafico {
+    display: inline-block;
+    position: absolute;
+    bottom: 10vh;
+    left: 20vw;
+    width: 73vw;
+    height: 65vh;
+    background-color: #F7F7F7;
+    -webkit-box-shadow: 0px 6px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 20px -7px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 940px) {
+    nav {
+        display: none;
+    }
+
+    .cardGrafico {
+        background-color: rgb(31,217,202);
+        left: 35vw;
+        color: #F7F7F7;
+        border: 0px solid rgb(31,217,202);
+    }
+
+    .cardGrafico p {
+        font-size: 20px;
+    }
+
+    #grafico {
+        left: 15vw;
+    }
+}
+
+@media (max-width: 530px) {
+    .cardGrafico {
+        left: 25vw;
+        width: 50vw;
+    }
+}

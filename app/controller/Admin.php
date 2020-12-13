@@ -18,5 +18,16 @@ class Admin extends Controller
     }
   }
 
+  public function painelDados()
+  {      
+    $respostas = new RespostasPesquisa();
+    $dados = $respostas->retornaRespostasPorId("2");
 
+    if(!empty($dados))
+      $this->view('admin/painelDados', ['respostas' => $dados]);
+    else{
+      echo "<script> window.location.href = 'erro404'; </script>";
+      die();
+    }
+  }
 }
