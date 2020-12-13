@@ -54,6 +54,7 @@ class Database extends PDO
     $stmt = $this->conn->prepare($query);
     $this->mountQuery($stmt, $parameters);
     $verif = $stmt->execute();
+    
     //or die(print_r($stmt->errorInfo(), true));
 
     if($verif == true){

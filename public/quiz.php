@@ -10,35 +10,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
+<body>
+    <div class="main">
+        <div class="form-container">
+            <h1 class="title">Questionário: Lorem, ipsum dolor.</h1>
+            <form >
 
-<div class="card">
-    <div class="pergunta">
-        <h1>MEU DEUS CAROLINA, PARA DE SPAMMAR MEU DISCORD</h1>
-    </div>
+                <div class="card">
+                    <h6 class="question-number"> Questão 1</h2>
+                    <h2 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
 
+                    <div class="valores">
+                        <fieldset id="customRadioInline0">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline0" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline0" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline0" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline3"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline4" name="customRadioInline0" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline4"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline5" name="customRadioInline0" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline5"></label>
+                        </div>
+                        </fieldset>
+                    </div>
+                </div>
 
-    <div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-    <label class="form-check-label" for="inlineRadio1">1</label>
+                <div class="card">
+                    <h6 class="question-number"> Questão 2</h2>
+                    <h2 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
 
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-    <label class="form-check-label" for="inlineRadio2">2</label>
-
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-    <label class="form-check-label" for="inlineRadio3">3</label>
-
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-    <label class="form-check-label" for="inlineRadio3">4</label>
-
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
-    <label class="form-check-label" for="inlineRadio3">5</label>
-    </div>
-
-    <button class="button">
-        MANDAR!
-    </button>
-
-
-</div>
+                    <div class="valores">
+                    <fieldset id="customRadioInline1">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline3"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline4"></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline5"></label>
+                        </div>
+                        </fieldset>
+                    </div>
+                </div>
+                    <button type="submit" class="btn btn-outline-danger"> Enviar </button>
+            </form>
+        </div>
+    </div>    
+</body>
 
 </html>

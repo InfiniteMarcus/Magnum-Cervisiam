@@ -19,9 +19,17 @@ as chamadas dos controllers e views -->
         $string = str_replace('?', '/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
         $REQUEST_URI = explode('/', $string);
 
-      if(!empty($REQUEST_URI) &&  $REQUEST_URI[1] === "login"){
-        echo '<link rel="stylesheet" href="/assets/css/login.css">';
-      }else
+        $set = false;
+      if(isset($REQUEST_URI[1])){
+        if($REQUEST_URI[1] === "login"){
+          echo '<link rel="stylesheet" href="/assets/css/login.css">';
+          $set = true;
+        }else if($REQUEST_URI[1] === "cadastro"){
+          echo '<link rel="stylesheet" href="/assets/css/cadastro.css">';
+          $set = true;
+        }
+      }
+      if(!$set)
         echo '<link rel="stylesheet" href="/assets/css/style.css">';
     ?>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>

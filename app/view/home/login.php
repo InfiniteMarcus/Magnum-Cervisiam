@@ -25,6 +25,8 @@
                     <label class="form-check-label" for="exampleCheck1">Manter logado</label>
                   </div>
                   <button type="submit" id="btn" class="btn btn-primary btn-lg btn-block" style="width: 380px;" name="login">Login</button>
+                  </br>
+                  <a href="cadastro">Não possui cadastro? Clique aqui</a>
             </form>
         </div>
     </div>
