@@ -1,10 +1,13 @@
-               
-        <main style="width: 100vw; height: 100vh; align-items: center;">
-            <button>Entre aqui</button>
+
+
+        <header>
             <video autoplay muted loop id="myVideo">
                 <source src="/assets/videos/video.mp4" type="video/mp4">
             </video>
 
-            <pre id="titulo">Junte-se à criação da
-            sua Cerveja Perfeita</pre>
-        </main>
+        </header>
+
+        <div id="title">
+            <h1>Ajude a criar sua cerveja perfeita</h1>
+            <button id="button" type="button" class="btn btn-secondary btn-lg">CADASTRE-SE</button>
+        </div>
