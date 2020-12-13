@@ -10,11 +10,6 @@ class Home extends Controller
     $this->view('home/index');
   }
 
-  public function quiz()
-  {
-    $this->view('home/quiz');
-  }
-
   public function cadastro()
   {
     if(isset($_SESSION['logado']))
