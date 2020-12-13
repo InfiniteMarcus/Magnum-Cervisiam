@@ -17,6 +17,8 @@ class Home extends Controller
 
   public function login(){
 
+    unset($_SESSION['logado']);
+    
     if(isset($_SESSION['logado'])){ 
       //Vai para menu do usuario
       //echo "<script> window.location.href = 'index'; </script>";

@@ -24,6 +24,9 @@ as chamadas dos controllers e views -->
         if($REQUEST_URI[1] === "login"){
           echo '<link rel="stylesheet" href="/assets/css/login.css">';
           $set = true;
+        }else if($REQUEST_URI[1] === "cadastro"){
+          echo '<link rel="stylesheet" href="/assets/css/cadastro.css">';
+          $set = true;
         }
       }
       if(!$set)
