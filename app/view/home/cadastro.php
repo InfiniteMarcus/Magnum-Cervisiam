@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/cadastro.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Cadastre-se</title>
-</head>
-<body>
+
     <div class="main">
         <div class="main-container">
             <div class="form-border-top"></div>
@@ -17,7 +7,6 @@
                     <div class="form-header">
                         <i class="far fa-user-circle fa-3x"></i>
                         <h1 class="form-title">Cadastre-se</h1>
-                        
                     </div>
                     <div class="form-row mb-3">
                         <div class="form-group col-md-6">
@@ -115,10 +104,8 @@
 
                     </div>
                     <button type="submit" class="btn btn-danger" id="form-btn">Cadastrar</button>
+                    <a id="return-btn" class="btn btn-link" href="login">Já possui cadastro? Clique aqui</a>
                 </form>
             </div>
         </div>
     </div>
-    
-</body>
-</html>

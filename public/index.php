@@ -27,6 +27,9 @@ as chamadas dos controllers e views -->
         }else if($REQUEST_URI[1] === "cadastro"){
           echo '<link rel="stylesheet" href="/assets/css/cadastro.css">';
           $set = true;
+        }else if($REQUEST_URI[1] === "quiz"){
+          echo '<link rel="stylesheet" href="/assets/css/quiz.css">';
+          $set = true;
         }
       }
       if(!$set)

@@ -10,15 +10,23 @@ class Home extends Controller
     $this->view('home/index');
   }
 
+  public function quiz()
+  {
+    $this->view('home/quiz');
+  }
+
   public function cadastro()
   {
-    $this->view('home/cadastro');
+    if(isset($_SESSION['logado']))
+      die();
+    else
+      $this->view('home/cadastro');
   }
 
   public function login(){
 
     unset($_SESSION['logado']);
-    
+
     if(isset($_SESSION['logado'])){ 
       //Vai para menu do usuario
       //echo "<script> window.location.href = 'index'; </script>";
