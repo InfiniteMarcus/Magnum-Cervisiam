@@ -2,35 +2,69 @@ body{
     background-color: rgb(236, 236, 236);
 }
 
-h1{
-    font-size: 35px;
-    margin: 5%;
+.main{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
-.form-check{
-    margin-left: 23%;
-    margin-bottom: 10%;
-    position: center;
+.title{
+    padding: 50px;
+}
+
+.question-number{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-title{
+    font-size: 28px;
+    font-weight: 350;
+    margin-bottom: 40px;
     
 }
 
-.form-check-input{
-    margin-left: 50%;
+.form-check{
+    display: flex;
 }
 
-.form-check-label{
-    margin-right: 10%;
+.form-container{
+    width: 65%;
 }
 
 .card{
-    width: 35rem;
-    border-radius: 28px;
-    margin-top: 20px;
-    margin-left: 20%;
+    text-align: center;
+    display: inline-block;
+    padding: 30px 50px 50px 50px;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    border-left: 3px solid #7d0b23;
+    margin-bottom: 40px;
 }
 
-.button{
-    border-radius: 20px;
-    margin-inline: 30%;
-    margin-bottom: 30px;
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.custom-control-label{
+    width: 30px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.btn{
+    width: 100%;
+    color: #7d0b23;
+    border: 1px solid #7d0b23;
+}
+
+
