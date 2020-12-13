@@ -1,38 +1,25 @@
- <body style="background-color: white; 
-background-image:url(/assets/img/404bgC.png);">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/assets/css/404.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+</head>
+<body>
 
-    <a style=
-    "display: block;
-    position: relative;
-    font-size: 20vw;
-    color: #7d0b23;
-    text-shadow: 10px 10px black;
-    margin-left: 35vw;
-    font-weight: bolder;
-    ">404</a>
-    <a 
-    style="color: white;
-    text-shadow: 10 0 black;
-    font-size: 7vw;
-    font-family: fantasy;
-    display: inherit;
-    margin-left: 15vw;
-    display: inline-block;
-    text-shadow: 10px 10px black;
-    ">Página não encontrada!</a>
-
-    <button style="    
-    width: 45vw;
-    height: 15vh;
-    background-color: #7d0b23;
-    color: white;
-    font-size: 2vw;
-    margin top: 10vh;
-    size: 10vw;
-    margin-left: 28vw;
-    margin-top: 8vh;
-    "
-    >Retornar a tela inicial</button>
-
-
+<div class="main">
+    <div id="container" class="jumbotron">
+    <h1 class="display-4">Erro 404</h1>
+    <p class="lead">A página que você está buscando não existe ou está em outro caminho</p>
+    <hr class="my-4">
+    <p>retorne à página principal</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/home" role="button">Voltar</a>
+    </p>
+    </div>
+</div>
+    
 </body>
+</html>
+
