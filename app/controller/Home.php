@@ -10,6 +10,11 @@ class Home extends Controller
     $this->view('home/index');
   }
 
+  public function cadastro()
+  {
+    $this->view('home/cadastro');
+  }
+
   public function login(){
     //verificar se ele ta no login e quis logar, ou se so entrou pela primeira vez
         
