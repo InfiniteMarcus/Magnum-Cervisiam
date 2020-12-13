@@ -1,4 +1,13 @@
 <?php
+    use app\core\Database; 
+    use app\model\RespostasPesquisa;
+
+
+    $resp = new RespostasPesquisa();
+
+    $res = $resp->retornarRespostas();
+
+
     $mtBom = $_POST['mtbom'];
     $bom = $_POST['bom'];
     $neutro = $_POST['neutro'];

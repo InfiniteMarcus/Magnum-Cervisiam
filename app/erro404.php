@@ -13,7 +13,7 @@
     <h1 class="display-4">Erro 404</h1>
     <p class="lead">A página que você está buscando não existe ou está em outro caminho</p>
     <hr class="my-4">
-    <p>retorne à página principal</p>
+    <p>Retorne à página principal</p>
     <p class="lead">
         <a class="btn btn-primary btn-lg" href="/home" role="button">Voltar</a>
     </p>
