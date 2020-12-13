@@ -1,0 +1,29 @@
+body { 
+    background-color: #f0efef;
+}
+
+#mainnavbar {
+    background-color: #a05344;
+}
+
+#cart-img{
+    align-items: right;
+}
+
+#nav-title{
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive; 
+    margin-bottom: 0 !important; 
+    color: #f0efef;
+}
+
+.nav-link{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6rem;
+    color: #f0efef;
+}
+
+.card{
+    border-left: 3px solid #7d0b23;
+    margin-right: 5px;
+}
