@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    font-size: 35px;
+    margin: 5%;
+}
+
+.form-check{
+    margin-left: 23%;
+    margin-bottom: 10%;
+    position: center;
+    
+}
+
+.form-check-input{
+    margin-left: 50%;
+}
+
+.form-check-label{
+    margin-right: 10%;
+}
+
+.card{
+    width: 35rem;
+    border-radius: 28px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.button{
+    border-radius: 20px;
+    margin-inline: 30%;
+    margin-bottom: 30px;
+}
