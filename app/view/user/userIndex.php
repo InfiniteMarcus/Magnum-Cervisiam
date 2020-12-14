@@ -13,7 +13,7 @@
         <div class="card-body">
             <div class="saldo">
                 <h1>Saldo Atual</h1>
-                <h2><?php echo($_GET['saldo']) ?></h2>
+                <h2>1200 BP</h2>
                 <div style="margin-left: auto; width: 26vw;">
                     <div class="d-flex">
                         <img id="clocker" src ="/assets/img/clocker.png">
@@ -37,7 +37,7 @@
         <div class="card-body">
             <h5 class="card-title">Cerveja Skol - lata</h5>
             <p class="card-text"> Responda um questionário simples compartilhando sua experiência com a cerveja skol - Em lata</p>
-            <a href="#" class="btn btn-primary">Responder agora</a>
+            <a href="quiz" class="btn btn-primary">Responder agora</a>
         </div>
     </div>
 

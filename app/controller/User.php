@@ -1,6 +1,7 @@
 <?php
 
 use app\core\Controller;
+use app\model\Pesquisa;
 
 class User extends Controller
 {
@@ -25,7 +26,7 @@ class User extends Controller
     $dados = $pesquisa->retornaPerguntaPorId("2");
 
     if(!empty($dados))
-      $this->view('my/quiz', ['pesquisa' => $dados]);
+      $this->view('user/quiz', ['pesquisa' => $dados]);
     else{
       echo "<script> window.location.href = 'erro404'; </script>";
       die();
