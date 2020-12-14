@@ -68,11 +68,26 @@ h1 {
 h2 {
     font-family: "Nexa_Regular";
     font-weight: 600;
-    font-size: 15px;
+    font-size: 50px;
 }
 
 h3 {
     font-family: "Nexa_Regular";
     font-weight: 700;
     font-size: 20px;
+}
+
+#clocker{
+    max-width:35px;
+    max-height:35px;
+    width: auto;
+    height: auto;
+    padding: 7px;
+}
+
+#local{
+    max-width:35px;
+    max-height:35px;
+    width: auto;
+    height: auto;
 }

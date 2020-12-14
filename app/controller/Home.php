@@ -12,19 +12,17 @@ class Home extends Controller
 
   public function cadastro()
   {
-    if(isset($_SESSION['logado']))
+    if(isset($_SESSION['logado'])){
+      echo "<script> window.location.href = '/user/userIndex'; </script>";
       die();
-    else
+    }else
       $this->view('home/cadastro');
   }
 
   public function login(){
 
-    unset($_SESSION['logado']);
-
     if(isset($_SESSION['logado'])){ 
-      //Vai para menu do usuario
-      //echo "<script> window.location.href = 'index'; </script>";
+      echo "<script> window.location.href = '/user/userIndex'; </script>";
       die();
     }
 
@@ -41,7 +39,7 @@ class Home extends Controller
         $this->view('home/login');
       }else{
         $_SESSION['logado'] = true;
-        echo "<script> window.location.href = 'index'; </script>";
+        echo "<script> window.location.href = '/user/userIndex'; </script>";
         die();
       }
     }else
