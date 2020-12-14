@@ -1,5 +1,8 @@
 <?php
 session_start();
+
+$string = str_replace('?', '/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
+$REQUEST_URI = explode('/', $string);
 ?>
 
 <!-- Esta pagina possui o template geral das paginas do site, mudando apenas o conteudo do body com
@@ -17,9 +20,6 @@ as chamadas dos controllers e views -->
     <!-- Estilos e fontes -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <?php 
-        $string = str_replace('?', '/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
-        $REQUEST_URI = explode('/', $string);
-
         $set = false;
       if(isset($REQUEST_URI[1])){
         if($REQUEST_URI[1] === "login"){
