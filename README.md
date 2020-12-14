@@ -1,1 +1,1 @@
-# projeto-hackathon-ambev
+# Magnum Cervisiam
