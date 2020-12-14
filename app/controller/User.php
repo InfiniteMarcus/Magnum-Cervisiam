@@ -8,4 +8,9 @@ class User extends Controller
   {
     $this->view('user/userIndex');
   }
+
+  public function premios()
+  {
+    $this->view('user/premios');
+  }
 }

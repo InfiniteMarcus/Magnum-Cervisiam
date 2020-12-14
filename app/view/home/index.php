@@ -1,4 +1,3 @@
-      <div class="teste"></div>
       <header>
             <video autoplay muted loop id="myVideo">
                 <source src="/assets/videos/video.mp4" type="video/mp4">
