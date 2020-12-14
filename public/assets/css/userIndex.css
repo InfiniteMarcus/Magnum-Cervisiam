@@ -30,23 +30,6 @@ header {
     margin: 15px;
 }
 
-@media (max-width: 700px){
-    .btns img {
-        width: 30px; 
-        height: 30px;
-        margin: 20px;
-    }
-}
-
-@media (max-width: 370px){
-    .btns img {
-        width: 20px; 
-        height: 20px;
-        margin: 15px;
-        margin-top: 25px;
-    }
-}
-
 .saldo {
     margin-left: 5vw;
     margin-top: 5vh;
@@ -90,4 +73,47 @@ h3 {
     max-height:35px;
     width: auto;
     height: auto;
+}
+
+#card1, #card2{
+    width: 80vw;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#card2{
+    margin-bottom: 110px;
+}
+
+.pesquisas-title{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+}
+
+.pesquisas-title h2{
+    font-weight: 650;
+    font-size: 40px;
+    border-left: 4px solid #7d0b23;
+    padding-left: 19px;
+}
+
+@media (max-width: 700px){
+    .btns img {
+        width: 30px; 
+        height: 30px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 370px){
+    .btns img {
+        width: 20px; 
+        height: 20px;
+        margin: 15px;
+        margin-top: 25px;
+    }
 }
