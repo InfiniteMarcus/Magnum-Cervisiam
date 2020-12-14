@@ -27,3 +27,13 @@ body {
     border-left: 3px solid #7d0b23;
     margin-right: 5px;
 }
+
+
+.products{
+    width: 60vw;
+    margin: auto;
+}
+
+@media(max-width: 500px){
+    
+}
