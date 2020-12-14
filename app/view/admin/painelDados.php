@@ -6,6 +6,9 @@
         $dataIni = "13/02/2020";
         $dataFin = "15/07/2020";
     ?>
+    <script>
+        var op = 1;
+    </script>
     <nav>
         <ul>
             <li id="tituloNavBar">Painel</li>
@@ -19,10 +22,10 @@
         </ul>
     </nav>
     <div class="cards">
-    <div class="card1" data-aos="zoom-in" data-aos-duration="1200" style="background-image: url('<?php ?>')">
+    <div class="card1" data-aos="zoom-in" data-aos-duration="1200" style="background-image: url('<?php echo($data["imagens"][0]["Banner"]) ?>')">
         <div><?php echo("De " . $dataIni . " Até " . $dataFin); ?></div>
     </div>
-    <div class="card2" data-aos="zoom-in" data-aos-duration="1200" style="background-image: url('<?php ?>')">
+    <div class="card2" data-aos="zoom-in" data-aos-duration="1200" onClick="op = 2;" style="background-image: url('<?php echo($data["imagens"][1]["Banner"]) ?>');">
         <div><?php echo("De " . $dataIni . " Até " . $dataFin); ?></div>
     </div>
     </div>
@@ -37,13 +40,34 @@
         $("#grafico").hide();
     </script>
     <script>
+    $(".card1").click(function(){
+        $(this).css("border", "2px solid #f1ff32");
+        $(".card2").css("border", "2px solid #F7F7F7");
+    });
+    $(".card2").click(function(){
+        $(this).css("border", "2px solid #f1ff32");
+        $(".card1").css("border", "2px solid #F7F7F7");
+    });
+    $('#home').click(function() {
+        location.reload();
+    });
     $("#pesquisar").click(function() {
         var mtbom = 52;
         var bom = 73;
         var neutro = 20;
         var ruim = 15;
         var mtruim = 33;
-        var titulo = "Satisfação da Skol";
+        var titulo;
+        if (op == 1){
+            titulo = "Satisfação da Skol";
+        } else if (op == 2){
+            titulo = "Satisfação do Guaraná";
+            var mtbom = 22;
+            var bom = 73;
+            var neutro = 30;
+            var ruim = 5;
+            var mtruim = 0;
+        }
         var chart = new CanvasJS.Chart("grafico",
 	            {
 		            theme: "light2",
