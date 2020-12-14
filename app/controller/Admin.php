@@ -21,10 +21,10 @@ class Admin extends Controller
   public function painelDados()
   {      
     $respostas = new RespostasPesquisa();
-    $dados = $respostas->retornaRespostasPorId("2");
+    $dados = $respostas->retornaImagens();
 
     if(!empty($dados))
-      $this->view('admin/painelDados', ['respostas' => $dados]);
+      $this->view('admin/painelDados', ['imagens' => $dados]);
     else{
       echo "<script> window.location.href = 'erro404'; </script>";
       die();

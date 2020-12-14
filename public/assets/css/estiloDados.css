@@ -69,6 +69,7 @@ nav ul {
 
 
 .card1 {
+    cursor: pointer;
     display: inline-block;
     position: absolute;
     bottom: 15vh;
@@ -95,6 +96,7 @@ nav ul {
 }
 
 .card2 {
+    cursor: pointer;
     display: inline-block;
     position: absolute;
     bottom: 15vh;

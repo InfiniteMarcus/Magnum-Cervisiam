@@ -1,5 +1,15 @@
 <?php
 session_start();
+
+$string = str_replace('?', '/', substr(filter_input(INPUT_SERVER, 'REQUEST_URI'), 1));
+$REQUEST_URI = explode('/', $string);
+
+if(isset($REQUEST_URI[1])){
+  if($REQUEST_URI[1] === "mostrarGrafico"){
+    header('Location: mostrarGrafico.php');
+    die();
+  }
+}
 ?>
 
 <!-- Esta pagina possui o template geral das paginas do site, mudando apenas o conteudo do body com
