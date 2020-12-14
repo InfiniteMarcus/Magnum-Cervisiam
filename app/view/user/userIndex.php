@@ -5,7 +5,7 @@
         <img id="logo" src="/assets/img/logoBase.png" width="50px" height="50px" style="margin: 10px">
         <div class="btns">
             <img src="/assets/img/mensagem.png">
-            <img src="/assets/img/estrela.png">
+            <a href="/user/premios"><img src="/assets/img/estrela.png"></a> 
             <img src="/assets/img/user.png">
         </div>
     </header>
