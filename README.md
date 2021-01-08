@@ -16,7 +16,7 @@ Usuários interessados podem se cadastrar, preenchendo informações básicas de
 
 ## Observações
 
-Este repositório não reflete, necessariamente, as habilidades técnicas dos envolvidos na produção, codificação, desenvolvimento e edição do projeto. Muitas adaptações foram necessárias, dado o escopo e tempo da competição.
+**Este repositório não reflete, necessariamente, as habilidades técnicas dos envolvidos na produção, codificação, desenvolvimento e edição do projeto. Muitas adaptações foram necessárias, dado o escopo e tempo da competição.**
 
 Não há pretenção, atualmente, de transformar este projeto em uma aplicação comercial e/ou outro tipo de projeto. O esforço aqui empregado foi totalmente especifico para a realização do evento **Hackeando A Cervejaria do Futuro**. 
 
