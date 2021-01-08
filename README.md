@@ -23,7 +23,8 @@ Não há pretenção, atualmente, de transformar este projeto em uma aplicação
 Este projeto foi uma grande fonte de aprendizado para todos os participantes. Agradecemos imensamente pelas empresas envolvidas por proporcionarem um evento deste porte e abrangência. 😀
 
 ## Links
-
-[Demonstração (administrador)](https://youtu.be/okzkWdepIz4)
-[Demonstração (cliente)](https://youtu.be/v47N4QeMmL8)
-[Pitch do projeto](https://youtu.be/ah-iILVJthY)
+<ul>
+  <li>[Demonstração (administrador)](https://youtu.be/okzkWdepIz4)</li>
+  <li>[Demonstração (cliente)](https://youtu.be/v47N4QeMmL8)</li>
+  <li>[Pitch do projeto](https://youtu.be/ah-iILVJthY)</li>
+</ul>
