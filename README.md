@@ -4,7 +4,7 @@
 
 Este projeto foi desenvolvido durante a edição 2020 do hackathon [Hackeando A Cervejaria do Futuro](https://www.hackacervejariadofuturo.com.br/), evento proporcionado pelas empresas Shawee e Ambev em formato totalmente online.
 
-O evento teve como desafios a "Cervejaria Flexível e Sustentável" e o "Produt Perfeito". No primeiro, o objetivo era desenvolver soluções que possibilitassem maior sustentabilidade na produção cervejeira, dadas análises sobre diversos indicadores de impacto. No segundo, o foco pairou sobre aperfeiçoar a rotina de Supply, impactando diretamente na experiência do consumidor final.
+O evento teve como desafios a "Cervejaria Flexível e Sustentável" e o "Produto Perfeito". No primeiro, o objetivo era desenvolver soluções que possibilitassem maior sustentabilidade na produção cervejeira, dadas análises sobre diversos indicadores de impacto. No segundo, o foco pairou sobre aperfeiçoar a rotina de Supply, impactando diretamente na experiência do consumidor final.
 
 ## Objetivo
 
@@ -23,8 +23,6 @@ Não há pretenção, atualmente, de transformar este projeto em uma aplicação
 Este projeto foi uma grande fonte de aprendizado para todos os participantes. Agradecemos imensamente pelas empresas envolvidas por proporcionarem um evento deste porte e abrangência. 😀
 
 ## Links
-<ul>
-  <li>[Demonstração (administrador)](https://youtu.be/okzkWdepIz4)</li>
-  <li>[Demonstração (cliente)](https://youtu.be/v47N4QeMmL8)</li>
-  <li>[Pitch do projeto](https://youtu.be/ah-iILVJthY)</li>
-</ul>
+* [Demonstração (administrador)](https://youtu.be/okzkWdepIz4)
+* [Demonstração (cliente)](https://youtu.be/v47N4QeMmL8)
+* [Pitch do projeto](https://youtu.be/ah-iILVJthY)
